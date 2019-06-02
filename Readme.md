@@ -16,8 +16,17 @@ Android Library for Custom Switches.
 
 * Library is also Available in MavenCentral, So just put this in your app dependencies to use it:
 ```gradle
-    implementation 'com.github.angads25:toggle:1.1.0'
+    implementation 'com.github.TalebRafiepour:android-toggle:1.1.1'
 ```
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ ```
 
 ### Usage
 
